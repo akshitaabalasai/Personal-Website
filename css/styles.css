@@ -11997,9 +11997,10 @@ html {
   border-top-right-radius: 10px;
 }
 
-.card-body {
+/*.card-body {
   text-align: center;
 }
+*/
 
 .card-text {
   font-style: italic;
