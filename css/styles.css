@@ -2011,7 +2011,7 @@ body {
 }
 .stats-section {
   padding: 20px;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 .stats-container {
   max-width: 1200px;
