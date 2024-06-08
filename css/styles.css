@@ -1953,6 +1953,107 @@ progress {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.skillsresume-section {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+.skillsresume-container {
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 30px;
+  margin: auto;
+}
+.skillsresume-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.skillsresume-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.awards-section {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+.awards-container {
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 30px;
+  margin: auto;
+}
+.awards-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.awards-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.award-item {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+}
+.stats-section {
+  padding: 20px;
+  background-color: #fff;
+}
+.stats-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.stats-header {
+  margin-bottom: 20px;
+}
+.stats-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.stat-item {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.stat-item:nth-child(1) {
+  background-color: #dbc5d8; /* Yellow */
+}
+.stat-item:nth-child(2) {
+  background-color: #ccd5e1; /* Green */
+}
+.stat-item:nth-child(3) {
+  background-color: #dbc5d8; /* Purple */
+}
+.stat-number {
+  font-size: 40px;
+  font-weight: bold;
+}
+.stat-label {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #555;
+}
+
 .table-light {
   --bs-table-color: #000;
   --bs-table-bg: #f8f9fa;
