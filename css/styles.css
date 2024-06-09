@@ -4105,6 +4105,15 @@ textarea.form-control-lg {
 .card-text {
   font-size: 0.9em;
   margin: 5px 0;
+  text-align: center;
+}
+
+.card-textexp {
+  font-size: 0.9em;
+  margin: 5px 0;
+  font-style: italic;
+  color: #6c757d;
+  text-align: center;
 }
 
 
@@ -12202,7 +12211,7 @@ html {
 }
 */
 
-.card-text {
+.card-textn {
   font-style: italic;
   color: #6c757d;
 }
