@@ -4165,6 +4165,13 @@ textarea.form-control-lg {
   margin: 0 10px;
 }
 
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .education-section {
   padding: 50px 0;
   text-align: center;
