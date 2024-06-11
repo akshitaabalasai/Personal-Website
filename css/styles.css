@@ -4115,8 +4115,55 @@ textarea.form-control-lg {
   color: #6c757d;
   text-align: center;
 }
+/*contact page*/
+.contact-container {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-container h1 {
+  margin-bottom: 20px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contact-container .icon-link {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+}
+.contact-container a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+.contact-container a:hover {
+  color: #0073b1; /* Default LinkedIn blue */
+}
+.contact-container i {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+/**/
 
 
+
+.icon-link {
+  display: inline-block;
+  margin: 0 10px;
+}
 
 .education-section {
   padding: 50px 0;
