@@ -1,7 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Simulate a delay for demonstration
-    setTimeout(function() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("content").style.display = "block";
-    }, 2000); // Adjust the delay time as needed
-});
+window.onload = function() {
+    var loader = document.getElementById("loader");
+    var content = document.getElementById("content");
+
+    if (loader && content) {
+        loader.style.display = "none";
+        content.style.display = "block";
+    }
+};
