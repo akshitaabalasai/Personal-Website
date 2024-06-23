@@ -1,4 +1,4 @@
-window.onload = function() {
+/*window.onload = function() {
     var loader = document.getElementById("loader");
     var content = document.getElementById("content");
 
@@ -7,3 +7,4 @@ window.onload = function() {
         content.style.display = "block";
     }
 };
+*/
